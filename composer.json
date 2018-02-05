@@ -9,6 +9,9 @@
         }
     ],
     "require": {
-        "sunra/php-simple-html-dom-parser": "^1.5"
+        "shark/simple_html_dom": "dev-master"
+    },
+    "autoload" : {
+        "psr-4": { "ESPNScrapper\\": "" }
     }
 }

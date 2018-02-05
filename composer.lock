@@ -4,62 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8aa31a22673e4c0eb34f7badab8c9c17",
-    "content-hash": "4002c018c213c653fa98b1de62423212",
+    "hash": "4974e171f159f587bb8de56b969afe14",
+    "content-hash": "e2d9d8ebed269741228e0abb5f4fd304",
     "packages": [
         {
-            "name": "sunra/php-simple-html-dom-parser",
-            "version": "v1.5.2",
+            "name": "shark/simple_html_dom",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sunra/php-simple-html-dom-parser.git",
-                "reference": "75b9b1cb64502d8f8c04dc11b5906b969af247c6"
+                "url": "https://github.com/samacs/simple_html_dom.git",
+                "reference": "830223ef1faa89bf8bbd8b231bd228993fd4bd3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sunra/php-simple-html-dom-parser/zipball/75b9b1cb64502d8f8c04dc11b5906b969af247c6",
-                "reference": "75b9b1cb64502d8f8c04dc11b5906b969af247c6",
+                "url": "https://api.github.com/repos/samacs/simple_html_dom/zipball/830223ef1faa89bf8bbd8b231bd228993fd4bd3b",
+                "reference": "830223ef1faa89bf8bbd8b231bd228993fd4bd3b",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": ">=5.3.2"
+                "php": ">=5.2.4"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Sunra\\PhpSimple\\HtmlDomParser": "Src/"
-                }
+                "classmap": [
+                    "simple_html_dom.php"
+                ],
+                "files": [
+                    "simple_html_dom.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
-                    "name": "Sunra",
-                    "email": "sunra@yandex.ru",
-                    "homepage": "https://github.com/sunra"
-                },
-                {
                     "name": "S.C. Chen",
-                    "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+                    "email": "me578022@gmail.com",
+                    "homepage": "http://simplehtmldom.sourceforge.net/"
                 }
             ],
-            "description": "Composer adaptation of: A HTML DOM parser written in PHP5+ let you manipulate HTML in a very easy way! Require PHP 5+. Supports invalid HTML. Find tags on an HTML page with selectors just like jQuery. Extract contents from HTML in a single line.",
-            "homepage": "https://github.com/sunra/php-simple-html-dom-parser",
+            "description": "Simple HTML DOM package.",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
             "keywords": [
                 "dom",
-                "html",
-                "parser"
+                "php dom"
             ],
-            "time": "2016-11-22 22:57:47"
+            "time": "2017-11-09 21:14:14"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "shark/simple_html_dom": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
